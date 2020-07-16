@@ -25,3 +25,4 @@ for row in range(1, sheet.nrows):
         print(sheet.cell_value(row,col), end =" \t"),
     print()
         
+print("finish reading excel file")
